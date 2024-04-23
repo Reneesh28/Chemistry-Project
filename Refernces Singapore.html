@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Reference Page</title>
+  <style>
+    html{
+        background-image: url(./2151160514.jpg);
+        background-repeat: no-repeat;
+      background-size:cover;
+    }
+    body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.categories {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.category-button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 20px 40px;
+  border: none;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+.reference-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.reference-list li {
+  margin-bottom: 10px;
+}
+
+.reference-list a {
+  text-decoration: none;
+  color: #0066cc;
+}
+
+.reference-list a:hover {
+  text-decoration: underline;
+}
+.cen{
+                color: #BC7C25; 
+                font-style:italic;
+                text-decoration: none;
+                font-size: 25px;
+            }
+.button{
+    background-color: #4CAF50;
+  color: white;
+  padding: 20px 40px;
+  border: none;
+  cursor: pointer;
+  font-size: 20px;
+}
+            </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Reference Page</h1>
+    <p>Select a category to view the references:</p>
+    <button class="button" data-category="video">Videos</button>
+    <div class="references">
+      <ul class="reference-list">
+        <li>&nbsp;<a class="cen" href="https://youtu.be/PM101DvvG4Q?si=SZK8g3KP9nbViIap">How Singapore Uses Science To Stay Cool</a></li>
+        <li>&nbsp;<a class="cen" href="https://youtu.be/xi6r3hZe5Tg?si=XVEwIbAeJW2pgjRN">City Of Future: Singapore</a></li>
+      </ul>
+      <br>
+      <br>
+
+      <button class="category-button" data-category="website"  >Websites</button><br>
+      <br>
+      <ul class="reference-list">
+        <li>&nbsp;<a class="cen" href="https://publications.iadb.org/en/international-case-studies-smart-cities-singapore-republic-singapore">Singapore Case Study</a></li>
+        <li>&nbsp;<a class="cen" href="https://www.smartnation.gov.sg/">Smart Nation Singapore</a></li>
+      </ul>
+    </div>
+  </div>
+  
+  <script src="./Refernces.js"></script>
+</body>
+</html>

@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Reference Page</title>
+  <style>
+    html{
+        background-image: url(./2151160514.jpg);
+        background-repeat: no-repeat;
+      background-size:cover;
+    }
+    body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.categories {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.category-button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 20px 40px;
+  border: none;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+.reference-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.reference-list li {
+  margin-bottom: 10px;
+}
+
+.reference-list a {
+  text-decoration: none;
+  color: #0066cc;
+}
+
+.reference-list a:hover {
+  text-decoration: underline;
+}
+.cen{
+                color: #BC7C25; 
+                font-style:italic;
+                text-decoration: none;
+                font-size: 25px;
+            }
+.button{
+    background-color: #4CAF50;
+  color: white;
+  padding: 20px 40px;
+  border: none;
+  cursor: pointer;
+  font-size: 20px;
+}
+            </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Reference Page</h1>
+    <p>Select a category to view the references:</p>
+    <button class="button" data-category="video">Videos</button>
+    <div class="references">
+      <ul class="reference-list">
+        <li>&nbsp;<a class="cen" href="https://youtu.be/BnY876YCY3w?si=vVp5MNMYkqu_6lOu">Smart Cities: How Taipei is Redefining the Future of Metropolises?</a></li>
+        <li>&nbsp;<a class="cen" href="https://youtu.be/T2i31x5vOxg?si=vah_59v2UNhkv-97">Entrepreneur Series #3: Enabling A Smart City Ecosystem in Taipei</a></li>
+      </ul>
+      <br>
+      <br>
+
+      <button class="category-button" data-category="website"  >Websites</button><br>
+      <br>
+      <ul class="reference-list">
+        <li>&nbsp;<a class="cen" href="https://smartcity.taipei/en/">Taipei Smart City</a></li>
+        <li>&nbsp;<a class="cen" href="https://www.gsma.com/iot/wp-content/uploads/2016/10/cl_chunghwa2_web_10_16.pdf">Taipei Case Study</a></li>
+      </ul>
+    </div>
+  </div>
+  
+  <script src="./Refernces.js"></script>
+</body>
+</html>

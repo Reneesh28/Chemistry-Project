@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Contact Us</title>
+	<style>
+        body {
+	font-family: Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+	background-color: #f0f0f0;
+}
+header {
+	background-color: navy;
+	color: white;
+	padding: 20px;
+	text-align: center;
+}
+h1 {
+	margin: 0;
+}
+main {
+	padding: 20px;
+}
+section {
+	margin-bottom: 30px;
+}
+h2 {
+	color: navy;
+	margin-bottom: 10px;
+}
+form {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+}
+label {
+	margin-bottom: 5px;
+}
+input[type="text"], input[type="email"], textarea {
+	width: 100%;
+	padding: 10px;
+	margin-bottom: 10px;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	box-sizing: border-box;
+}
+input[type="submit"] {
+	background-color: navy;
+	color: white;
+	padding: 10px;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+}
+address {
+	margin-bottom: 10px;
+}
+    </style>
+</head>
+<body>
+	<header>
+		<h1>Contact Us</h1>
+	</header>
+	<main>
+		<section>
+			<h2>Get in Touch</h2>
+			<p>We'd love to hear from you! Fill out the form below to send us a message, and we'll get back to you as soon as possible.</p>
+			<form>
+				<label for="name">Name:</label><br>
+				<input type="text" id="name" name="name"><br>
+				<label for="email">Email:</label><br>
+				<input type="email" id="email" name="email"><br>
+				<label for="message">Message:</label><br>
+				<textarea id="message" name="message"></textarea><br>
+				<input type="submit" value="Send">
+			</form>
+		</section>
+		<section>
+			<h2>Find Us</h2>
+			<p>Our office is located at:</p>
+			<address>
+				123 Main St.<br>
+				City, State 12345<br>
+				United States
+			</address>
+			<p>You can also reach us by phone at (123) 456-7890 or by email at <a href="mailto:info@smartcitybenefits.com">info@smartcitybenefits.com</a>.</p>
+		</section>
+	</main>
+</body>
+</html>

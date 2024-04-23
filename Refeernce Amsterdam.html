@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Reference Page</title>
+  <style>
+    html{
+        background-image: url(./2151160514.jpg);
+        background-repeat: no-repeat;
+      background-size:cover;
+    }
+    body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.categories {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.category-button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 20px 40px;
+  border: none;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+.reference-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.reference-list li {
+  margin-bottom: 10px;
+}
+
+.reference-list a {
+  text-decoration: none;
+  color: #0066cc;
+}
+
+.reference-list a:hover {
+  text-decoration: underline;
+}
+.cen{
+                color: #BC7C25; 
+                font-style:italic;
+                text-decoration: none;
+                font-size: 25px;
+            }
+.button{
+    background-color: #4CAF50;
+  color: white;
+  padding: 20px 40px;
+  border: none;
+  cursor: pointer;
+  font-size: 20px;
+}
+            </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Reference Page</h1>
+    <p>Select a category to view the references:</p>
+    <button class="button" data-category="video">Videos</button>
+    <div class="references">
+      <ul class="reference-list">
+        <li>&nbsp;<a class="cen" href="https://youtu.be/pkTBjMGKPK8?si=CZNTjTrIDHlBPYE2">Smart City: How Amsterdam Revolutionizes Energy | Future Smart City Projects</a></li>
+        <li>&nbsp;<a class="cen" href="https://youtu.be/4vKT3Dz-QNg?si=yWVmrKVdo1NrScl1">Amsterdam Tech City - The Future</a></li>
+      </ul>
+      <br>
+      <br>
+
+      <button class="category-button" data-category="website"  >Websites</button><br>
+      <br>
+      <ul class="reference-list">
+        <li>&nbsp;<a class="cen" href="https://amsterdamsmartcity.com/">Amsterdam Smart City</a></li>
+        <li>&nbsp;<a class="cen" href="https://www.citego.org/bdf_fiche-document-2429_en.html">Amstrerdam Case Study</a></li>
+      </ul>
+    </div>
+  </div>
+  
+  <script src="./Refernces.js"></script>
+</body>
+</html>
